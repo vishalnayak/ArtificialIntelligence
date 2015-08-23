@@ -1,0 +1,39 @@
+==Course Domains after filtering==
+CSE101 :  MRS._LAUREN_SMITH(1) 
+CSE102 :  TA4(1) 
+CSE103 :  TA4(1) 
+CSE104 :  TA5(1) TA8(1) 
+CSE105 :  TA2(1) 
+CSE106 :  TA6(1) 
+CSE107 :  TA7(1) 
+
+Required TA: [1.5, 0.5, 0.5, 1.5, 2, 1.5, 2]
+
+Forward checking for course: CSE101 after assigning TA: MRS._LAUREN_SMITH
+Forward checking for course: CSE102 after assigning TA: TA4
+Forward checking for course: CSE103 after assigning TA: TA4
+Forward checking for course: CSE104 after assigning TA: TA5
+Forward checking for course: CSE105 after assigning TA: TA2
+Forward checking for course: CSE106 after assigning TA: TA6
+Forward checking for course: CSE107 after assigning TA: TA7
+
+TimeTaken: 9.71103358952e-05
+
+Backtracking Successful!
+
+== Courses assignted to TAs ==
+MRS._LAUREN_SMITH:  [('CSE101', 1)]
+TA2:  [('CSE105', 1)]
+TA4:  [('CSE102', 0.5), ('CSE103', 0.5)]
+TA5:  [('CSE104', 1)]
+TA6:  [('CSE106', 1)]
+TA7:  [('CSE107', 1)]
+
+== TAs assigned to Courses ==
+CSE101:  [('MRS._LAUREN_SMITH', 1)] and Need: 0.5
+CSE102:  [('TA4', 0.5)] and Need: 0.0
+CSE103:  [('TA4', 0.5)] and Need: 0.0
+CSE104:  [('TA5', 1)] and Need: 0.5
+CSE105:  [('TA2', 1)] and Need: 1
+CSE106:  [('TA6', 1)] and Need: 0.5
+CSE107:  [('TA7', 1)] and Need: 1

@@ -1,0 +1,16 @@
+Pacman emerges victorious! Score: 1244
+Pacman emerges victorious! Score: 1392
+Pacman emerges victorious! Score: 617
+Pacman emerges victorious! Score: 1243
+Pacman emerges victorious! Score: 1246
+Pacman emerges victorious! Score: 1239
+Pacman emerges victorious! Score: 1256
+Pacman emerges victorious! Score: 1257
+Pacman emerges victorious! Score: 1240
+Pacman emerges victorious! Score: 1257
+Average Score: 1199.1
+Scores:        1244.0, 1392.0, 617.0, 1243.0, 1246.0, 1239.0, 1256.0, 1257.0, 1240.0, 1257.0
+Win Rate:      10/10 (1.00)
+Record:        Win, Win, Win, Win, Win, Win, Win, Win, Win, Win
+Size of GameState: 36
+Time taken: 4.11192926885

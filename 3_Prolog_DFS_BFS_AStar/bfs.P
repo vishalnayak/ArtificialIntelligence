@@ -1,0 +1,20 @@
+/*Terminal Condition for bfs/2*/
+bfs(X, Sol) :- bfs1([[X]], Sol).
+
+/*Terminal Condition for bfs1/2*/
+bfs1([[X|Path]|_], [X|Path]) :- goal(X).
+
+/*Definition of bfs1/3*/
+bfs1([[PH|PT]|Paths], Sol) :- findall([X,PH|PT],(edge(PH, X),not member(X, PT)),List),append(Paths, List, Q), bfs1(Q, Sol).
+
+/*Terminal Condition for append/3*/
+append([], L, L).
+
+/*Definition of append/3*/
+append([H|T1], List, [H|T2]) :- append(T1, List, T2).
+
+/*Terminal Condition for member/2*/
+member(X, [X|T]).
+
+/*Definition of member/2*/
+member(X, [H|T]):- member(X,T).

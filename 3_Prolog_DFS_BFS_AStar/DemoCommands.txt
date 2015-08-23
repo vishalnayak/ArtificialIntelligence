@@ -1,0 +1,11 @@
+python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+python pacman.py -l tinyMaze -p SearchAgent -a fn=depthFirstSearch
+python pacman.py -l mediumMaze -z .7 -p SearchAgent --frameTime=0.015 -a fn=depthFirstSearch
+python pacman.py -l bigMaze -z .3 -p SearchAgent --frameTime=0.01 -a fn=depthFirstSearch
+python pacman.py -l tinyMaze -p SearchAgent -a fn=breadthFirstSearch
+python pacman.py -l mediumMaze -z .7 -p SearchAgent --frameTime=0.015 -a fn=breadthFirstSearch
+python pacman.py -l bigMaze -z .5 -p SearchAgent --frameTime=0.01 -a fn=breadthFirstSearch
+python pacman.py -l tinyMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python pacman.py -l mediumMaze -z .7 -p SearchAgent --frameTime=0.015 -a fn=astar,heuristic=manhattanHeuristic 
+python pacman.py -l bigMaze -z .4 -p SearchAgent --frameTime=0.01 -a fn=astar,heuristic=manhattanHeuristic 
+python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem

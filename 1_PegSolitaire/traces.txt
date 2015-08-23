@@ -1,0 +1,137 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test Case 4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+X X 0 0 0 X X 
+X X 0 1 0 X X 
+0 1 0 0 1 0 0 
+0 1 1 1 1 1 0 
+0 0 1 0 1 0 0 
+X X 0 0 0 X X 
+X X 0 0 0 X X 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: Iterative Deepening Search using DFS
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 9186
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=9186) = 293952
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=13624) = 435968
+Running Time = 1.43226494858 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 1
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 4428
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=4428) = 141696
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=4655) = 148960
+Running Time = 1.03012038918 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 2
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 2715
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=2715) = 86880
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=3257) = 104224
+Running Time = 0.591634457747 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test Case 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+X X 0 0 0 X X 
+X X 0 1 0 X X 
+0 0 0 0 1 0 0 
+0 0 1 1 1 1 0 
+0 0 0 1 1 0 0 
+X X 0 0 0 X X 
+X X 0 0 0 X X 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: Iterative Deepening Search using DFS
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 1537
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=1537) = 49184
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=2381) = 76192
+Running Time = 0.337445784997 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 1
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 838
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=838) = 26816
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=909) = 29088
+Running Time = 0.156476331724 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 2
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 554
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=554) = 17728
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=667) = 21344
+Running Time = 0.107687467358 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test Case 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+X X 0 0 0 X X 
+X X 0 1 0 X X 
+0 0 1 1 1 0 0 
+0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 
+X X 0 0 0 X X 
+X X 0 0 0 X X 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: Iterative Deepening Search using DFS
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 59
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=59) = 1888
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=88) = 2816
+Running Time = 0.0457302835424 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 1
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 29
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=29) = 928
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=32) = 1024
+Running Time = 0.031170444035 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 2
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 24
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=24) = 768
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=28) = 896
+Running Time = 0.0168746972704 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test Case 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+X X 0 0 0 X X 
+X X 0 1 0 X X 
+0 0 0 0 0 1 0 
+0 0 1 0 1 1 0 
+0 0 0 0 1 0 0 
+X X 0 0 0 X X 
+X X 0 0 0 X X 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: Iterative Deepening Search using DFS
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 58
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=58) = 1856
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=80) = 2560
+Running Time = 0.0139700718577 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 1
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 24
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=24) = 768
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=27) = 864
+Running Time = 0.00432851558167 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Method: A* with Heuristic 2
+Able to reach goal. Platform: Windows 8
+Number of nodes expanded = 24
+Memory required by solution (in Bytes): (SizeOfNode=32) * (NumOfNodesExpanded=24) = 768
+Maximum fringe size reached (in Bytes): (SizeOfNode=32) * (FringeTransit=27) = 864
+Running Time = 0.00921837627571 seconds.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

@@ -1,0 +1,29 @@
+/*Definition of astar/2*/
+astar(Pos,Path) :- astar1(Pos,[],Path,0).
+
+/*Terminal condition for astar1/4*/
+astar1(X,_,[X],_) :- goal(X), !.
+
+/*Definition of astar1/4*/
+astar1(Pos,Visited,[Pos|Path],Cost) :-
+    findall(FX-Pos1,(edge(Pos,Pos1), manhattan_distance_heuristic(Pos1,HX), FX is HX+Cost),L),
+    distinct(L,Distinct),
+    keysort(Distinct,SortedL),
+    member(_-Succ,SortedL),
+    not member(Succ,Visited),
+    astar1(Succ,[Pos|Visited],Path,Cost+1).
+
+/*Terminal condition for member/2*/
+member(X, [X|T]).
+
+/*Definition of member/2*/
+member(X, [H|T]):- member(X,T).
+
+/*Terminal clause for distinct/2*/
+distinct([],[]).
+
+/*Definition of distinct/2*/
+distinct([H|T],C) :- member(H,T),!, distinct(T,C).
+
+/*Definition of distinct/2*/
+distinct([H|T],[H|C]) :- distinct(T,C).

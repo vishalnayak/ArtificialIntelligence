@@ -1,0 +1,51 @@
+CSE101, Mon, 2:30 PM, Wed, 2:30 PM
+CSE102, Tue, 2:30 PM, Th, 2:30 PM
+CSE103, Mon, 1:00 PM, Fri, 1:00 PM
+CSE104, Mon, 8:00 AM, Wed, 8:00 AM, Fri, 8:00 AM
+CSE105, Mon, 10:00 AM, Wed, 10:00 AM, Fri, 10:00 AM
+CSE106, Wed, 4:00 PM, Fri, 4:00 PM
+CSE107, Tue, 8:30 AM, Th, 8:30 AM
+
+CSE101, Mon, 2:30 PM
+CSE102, Fri, 4:00 PM
+CSE103, wed, 5:30 PM
+CSE104, Mon, 2:30 PM
+CSE105, Tue, 2:30 PM
+CSE106, Mon, 2:30 PM
+CSE107, Wed, 4:00 PM
+
+CSE101, 51, yes
+CSE102, 35, yes
+CSE103, 39, no
+CSE104, 55, yes 
+CSE105, 115, yes
+CSE106, 59, yes
+CSE107, 80, no
+
+CSE101, Java, C#, Awesome Hacking Skills, Security, Networking
+CSE102, C, Python, C#, Networking, Data structures
+CSE103, C, Python, C#, Networking, Data structures
+CSE104, Java, JavaScript, JSP, Python
+CSE105, C Java, JavaScript, JSP
+CSE106, Python, Networking, Ruby
+CSE107, JSP, Python, Scala
+
+Mrs. Lauren Smith, Wed, 11:30 AM
+TA1, Mon, 2:30 PM 
+TA2, Wed, 2:30 PM
+TA3, Tue, 2:30 PM
+TA4, Mon, 1:00 PM
+TA5, Mon, 8:00 AM 
+TA6, Fri, 8:30 AM
+TA7, Th, 4:00 PM
+TA8, Wed, 11:00 AM
+
+Mrs. Lauren Smith, Java, C#, Awesome Hacking Skills, Security, Networking
+TA1, Java, JavaScript, JSP, Python
+TA2, C Java, JavaScript, JSP
+TA3, C Java, JavaScript, JSP
+TA4, C, Python, C#, Networking, Data structures
+TA5, Java, JavaScript, JSP, Python
+TA6, Python, Networking, Ruby
+TA7, JSP, Python, Scala
+TA8, Java, JavaScript, JSP, Python
